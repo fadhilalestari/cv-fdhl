@@ -1,7 +1,7 @@
 /**
  * Formats an Indonesian phone number (e.g. 0831-6501-4750) into an international WhatsApp link URL.
  */
-export function formatWhatsAppUrl(phone: string, defaultText: string = 'Halo Fadhila, saya melihat website portofolio Anda'): string {
+export function formatWhatsAppUrl(phone: string, defaultText: string = 'Halo Fadhila Lestari, saya melihat website portofolio Anda'): string {
   // Strip non-digit characters
   const cleanDigits = phone.replace(/\D/g, '');
   // Replace leading 0 with 62

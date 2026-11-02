@@ -78,7 +78,7 @@ export const About: React.FC = () => {
 
             <div className="pt-8 mt-6 border-t border-white/10 flex items-center justify-between">
               <span className="text-xs text-slate-300">
-                Fadhila · Mahasiswa Sistem Informasi
+                {PROFILE.name} · Mahasiswa Sistem Informasi
               </span>
               <a
                 href="#education"

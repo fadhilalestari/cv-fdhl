@@ -1,9 +1,9 @@
 import { EducationItem, ExperienceItem, SkillItem, ContactInfo } from '../types';
 
 export const PROFILE: ContactInfo = {
-  name: 'Fadhila',
+  name: 'Fadhila Lestari',
   tagline: 'Mahasiswa Sistem Informasi yang tertarik pada sistem informasi kesehatan.',
-  bio: 'Saya Fadhila, lulusan SMK Farmasi Majenang yang sekarang kuliah Sistem Informasi di Universitas Komputama. Selama 5 bulan PKL di puskesmas, saya membantu pekerjaan di ruang farmasi dan mengenal e-Puskesmas, sistem digital yang dipakai di sana. Dari pengalaman itu, saya jadi tertarik pada sistem informasi kesehatan dan bercita-cita bekerja di bagian Sistem Informasi Manajemen Rumah Sakit (SIMRS).',
+  bio: 'Saya Fadhila Lestari, lulusan SMK Farmasi Majenang yang sekarang kuliah Sistem Informasi di Universitas Komputama. Selama 5 bulan PKL di puskesmas, saya membantu pekerjaan di ruang farmasi dan mengenal e-Puskesmas, sistem digital yang dipakai di sana. Dari pengalaman itu, saya jadi tertarik pada sistem informasi kesehatan dan bercita-cita bekerja di bagian Sistem Informasi Manajemen Rumah Sakit (SIMRS).',
   quote: 'Ragu itu manusiawi, menyerah itu pilihan.',
   email: 'lestarifadila13@gmail.com',
   phone: '0831-6501-4750',

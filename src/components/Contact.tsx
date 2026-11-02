@@ -165,7 +165,7 @@ export const Contact: React.FC = () => {
                   Pesan Berhasil Terkirim
                 </h3>
                 <p className="text-sm text-slate-600 max-w-sm mx-auto">
-                  Terima kasih, {name}! Fadhila telah menerima pesan Anda dan akan menghubungi Anda di {email} segera.
+                  Terima kasih, {name}! {PROFILE.name} telah menerima pesan Anda dan akan menghubungi Anda di {email} segera.
                 </p>
                 <div className="pt-4">
                   <button
@@ -184,7 +184,7 @@ export const Contact: React.FC = () => {
                     Tinggalkan Pesan
                   </h3>
                   <p className="text-xs text-slate-500">
-                    Kirimkan pesan langsung kepada Fadhila melalui formulir berikut.
+                    Kirimkan pesan langsung kepada {PROFILE.name} melalui formulir berikut.
                   </p>
                 </div>
 

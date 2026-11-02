@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { formatWhatsAppUrl, formatInstagramUrl, validateContactForm } from './helpers';
 
 test('formatWhatsAppUrl properly normalizes 0831-6501-4750 to international 62 format', () => {
-  const url = formatWhatsAppUrl('0831-6501-4750', 'Halo Fadhila');
+  const url = formatWhatsAppUrl('0831-6501-4750', 'Halo Fadhila Lestari');
   assert.ok(url.startsWith('https://wa.me/6283165014750'));
-  assert.ok(url.includes('Halo%20Fadhila'));
+  assert.ok(url.includes('Halo%20Fadhila%20Lestari'));
 });
 
 test('formatInstagramUrl strips leading @ symbol', () => {

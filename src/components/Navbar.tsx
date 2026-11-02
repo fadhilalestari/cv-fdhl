@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             /FL
           </span>
           <span className="text-slate-900 tracking-wider text-base font-semibold uppercase">
-            Fadhila
+            Fadhila Lestari
           </span>
         </a>
 

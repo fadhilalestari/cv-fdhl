@@ -1,5 +1,5 @@
 import React from 'react';
-import { SKILL_LIST } from '../data/portfolioData';
+import { SKILL_LIST, PROFILE } from '../data/portfolioData';
 import { Wrench, Pill, Laptop, ArrowRight } from 'lucide-react';
 
 export const Skills: React.FC = () => {
@@ -104,7 +104,7 @@ export const Skills: React.FC = () => {
               href="#contact"
               className="text-xs font-bold text-sky-600 hover:text-sky-700 inline-flex items-center gap-1 uppercase tracking-wider"
             >
-              <span>Hubungi Fadhila</span>
+              <span>Hubungi {PROFILE.name}</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </a>
           </div>

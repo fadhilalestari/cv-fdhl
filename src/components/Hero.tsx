@@ -116,7 +116,7 @@ export const Hero: React.FC = () => {
               <div className="w-[290px] h-[290px] sm:w-[380px] sm:h-[380px] lg:w-[440px] lg:h-[440px] rounded-full overflow-hidden bg-sky-700 shadow-2xl shadow-sky-950/20 relative border-4 border-white transition-transform duration-500 group-hover:scale-[1.01]">
                 <img
                   src={PROFILE.heroImage}
-                  alt="Fadhila - Mahasiswa Sistem Informasi"
+                  alt={`${PROFILE.name} - Mahasiswa Sistem Informasi`}
                   className="w-full h-full object-cover object-[center_18%] select-none transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
                   referrerPolicy="no-referrer"
